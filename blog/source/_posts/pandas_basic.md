@@ -1,10 +1,8 @@
 ---
 title : python pandas 정리
 date : 21-11-01-15:00
-tag1 : python
-tag2 : pandas
-categories1 : python
-categories2 : pandas
+tags  : python
+categories  : python
 ---
 
 판다스는 파이썬에서 데이터 처리를 위해 존재하는 가장 인기 있는 라이브러리이다. 일반적으로 대부분의 데이터 세트는 <strong>2차원 데이터</strong>입니다. **행(Row)** X **열(column)**로 구성되어 있다.
