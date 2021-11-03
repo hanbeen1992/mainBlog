@@ -38,9 +38,7 @@ plt.show
 
 
     <function matplotlib.pyplot.show>
-![](../image/python_visualization/output_2_1.png)
-
-
+![](/images/python_visualization/output_2_1.png)
 ## 선 그래프
 
 
@@ -108,9 +106,8 @@ ax.set_ylabel('Stock Market Open Price')
 plt.show()
 ```
 
-    [*********************100%***********************]  1 of 1 completed
-![](../image/python_visualization/output_8_1.png)    
-
+    [*********************100%***********************]  1 of 1 completed 
+![](/images/python_visualization/output_8_1.png)
 
 
 
@@ -153,8 +150,8 @@ for rect in plot:
     graph :  Rectangle(xy=(10.6, 0), width=0.8, height=550, angle=0)
     graph :  Rectangle(xy=(11.6, 0), width=0.8, height=450, angle=0)
     
-![](../image/python_visualization/output_10_1.png)
 
+![](/images/python_visualization/output_10_1.png)
 
 ###산점도 그래프
 <li> 두개의 연속현 변수(키, 몸무게 등)</li>
@@ -179,8 +176,7 @@ ax.set_title('Tip ~Total Bill')
 fig.show()
 ```
 
-![](../image/python_visualization/output_12_0.png)
-
+![](/images/python_visualization/output_12_0.png)
 
 
 ```python
@@ -208,10 +204,7 @@ fig.show
     <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
 
 
-
-
-![](../image/python_visualization/output_14_1.png)
-
+![](/images/python_visualization/output_14_1.png)
 ### 박스플롯
 <li> X축 변수 : 범주형 변수, 그룹과 관련있는 변수, 문자열</li>
 <li> y축 변수 : 수치형 변수
@@ -240,4 +233,4 @@ fig.show
 
 
     <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
-![](../image/python_visualization/output_16_1.png)
+![](/images/python_visualization/output_16_1.png)
