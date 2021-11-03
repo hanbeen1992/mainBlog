@@ -33,8 +33,7 @@ plt.show
 
 
 
-    
-![png](output_2_1.png)
+![](../img/python_visualization/output_2_1.png)
     
 
 
@@ -109,9 +108,8 @@ plt.show()
     
 
 
-    
-![png](output_8_1.png)
-    
+
+![](../img/python_visualization/output_8_1.png)    
 
 
 ### 막대그래프
@@ -155,7 +153,102 @@ for rect in plot:
     
 
 
-    
-![png](output_10_1.png)
+
+![](../img/python_visualization/output_10_1.png)    
+
+
+###산점도 그래프
+<li> 두개의 연속현 변수(키, 몸무게 등)</li>
+<li> 상관관계 != 인과관계
+
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#내장 데이터
+tips = sns.load_dataset("tips")
+x = tips['total_bill']
+y = tips['tip']
+
+fig, ax = plt.subplots(figsize=(10,6))
+ax.scatter(x,y)
+ax.set_xlabel('Total Bill')
+ax.set_ylabel('Tip')
+ax.set_title('Tip ~Total Bill')
+
+fig.show()
+```
+
+
+
+![](../img/python_visualization/output_12_0.png)    
+
+
+
+```python
+label, data = tips.groupby('sex')
+```
+
+
+```python
+tips['sex_color'] = tips['sex'].map({"Female" : "#0000FF", "Male" : "#00FF00" })
+
+fig,ax = plt.subplots(figsize=(10,6))
+for label, data in tips.groupby('sex'):
+  ax.scatter(data['total_bill'], data['tip'], label=label, color=data['sex_color'], alpha=0.5)
+  ax.set_xlabel('Total Bill')
+  ax.set_ylabel('Tip')
+  ax.set_title('Tip ~ Total Bill by Gender')
+
+ax.legend()
+fig.show
+```
+
+
+
+
+    <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
+
+
+
+
+
+![](../img/python_visualization/output_14_1.png)    
+
+
+### 박스플롯
+<li> X축 변수 : 범주형 변수, 그룹과 관련있는 변수, 문자열</li>
+<li> y축 변수 : 수치형 변수
+
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iris = sns.load_dataset('iris')
+
+data = [iris[iris['species']=="setosa"]['petal_width'],
+        iris[iris['species']=="versicolor"]['petal_width'],
+        iris[iris['species']=="virginica"]['petal_width']]
+
+fig, ax = plt.subplots(figsize=(10,6))
+ax.boxplot(data, labels=['setosa','versicolor','virginica'])
+
+fig.show
+
+
+
+```
+
+
+
+
+    <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
+
+
+
+
+![](../img/python_visualization/output_16_1.png)
     
 
