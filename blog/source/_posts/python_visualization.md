@@ -1,13 +1,4 @@
----
-title: python Visualization
-date: 2021-11-03 13:12:00
-categories:
-- python
-- Visualization
-tags:
-- python
-- Visualization
----
+# python Visualization
 
 # Matplotlib
 <li>matplotlib.pyplot / 각 pyplot()함수는 figure를 변형시킨다. 예를들어 figure생성, figure에 플롯 영역 생성, 플롯영역에 일부 선그리기, 레이블로 플롯 꾸미기 등이 있다.</li>
@@ -38,10 +29,13 @@ plt.show
 
 
     <function matplotlib.pyplot.show>
-![](../img/output_2_1.png)
 
 
 
+
+    
+![png](output_2_1.png)
+    
 
 
 ## 선 그래프
@@ -112,7 +106,11 @@ plt.show()
 ```
 
     [*********************100%***********************]  1 of 1 completed
-![](../img/output_8_1.png)
+    
+
+
+    
+![png](output_8_1.png)
     
 
 
@@ -154,8 +152,10 @@ for rect in plot:
     graph :  Rectangle(xy=(9.6, 0), width=0.8, height=700, angle=0)
     graph :  Rectangle(xy=(10.6, 0), width=0.8, height=550, angle=0)
     graph :  Rectangle(xy=(11.6, 0), width=0.8, height=450, angle=0)
+    
+
 
     
-![](../img/output_10_1.png)
-
+![png](output_10_1.png)
+    
 
