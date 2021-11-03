@@ -1,5 +1,5 @@
 ---
-title : python python numpy 정리
+title : python numpy 정리
 date : 21-11-01-15:00
 tags  : python
 categories  : python
