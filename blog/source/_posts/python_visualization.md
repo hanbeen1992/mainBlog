@@ -30,11 +30,7 @@ plt.show
 
     <function matplotlib.pyplot.show>
 
-
-
-
-![](../img/python_visualization/output_2_1.png)
-    
+![](../img/python_visualization/output_2_1.png) 
 
 
 ## 선 그래프
@@ -108,9 +104,7 @@ plt.show()
     
 
 
-
-![](../img/python_visualization/output_8_1.png)    
-
+![](../../public/img/python_visualization/output_8_1.png)
 
 ### 막대그래프
 
@@ -153,9 +147,8 @@ for rect in plot:
     
 
 
-
-![](../img/python_visualization/output_10_1.png)    
-
+ 
+![](../../public/img/python_visualization/output_10_1.png)
 
 ###산점도 그래프
 <li> 두개의 연속현 변수(키, 몸무게 등)</li>
@@ -182,8 +175,7 @@ fig.show()
 
 
 
-![](../img/python_visualization/output_12_0.png)    
-
+![](../../public/img/python_visualization/output_12_0.png)
 
 
 ```python
@@ -213,8 +205,7 @@ fig.show
 
 
 
-
-![](../img/python_visualization/output_14_1.png)    
+![](../../public/img/python_visualization/output_14_1.png)
 
 
 ### 박스플롯
@@ -245,10 +236,4 @@ fig.show
 
 
     <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
-
-
-
-
-![](../img/python_visualization/output_16_1.png)
-    
-
+![](../../public/img/python_visualization/output_16_1.png)
