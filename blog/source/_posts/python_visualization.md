@@ -38,11 +38,10 @@ plt.show
 
 
     <function matplotlib.pyplot.show>
+![](../img/output_2_1.png)
 
 
 
-![](img/output_2_1.png)
-    
 
 
 ## 선 그래프
@@ -113,11 +112,7 @@ plt.show()
 ```
 
     [*********************100%***********************]  1 of 1 completed
-    
-
-
-    
-![](img/output_8_1.png)
+![](../img/output_8_1.png)
     
 
 
@@ -159,10 +154,8 @@ for rect in plot:
     graph :  Rectangle(xy=(9.6, 0), width=0.8, height=700, angle=0)
     graph :  Rectangle(xy=(10.6, 0), width=0.8, height=550, angle=0)
     graph :  Rectangle(xy=(11.6, 0), width=0.8, height=450, angle=0)
-    
 
-![](img/output_10_1.png)
     
-
+![](../img/output_10_1.png)
 
 
