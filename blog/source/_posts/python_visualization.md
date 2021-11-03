@@ -1,4 +1,13 @@
-# python Visualization
+---
+title: python Visualization
+date: 2021-11-03 15:00:00
+categories:
+- python
+- Visualization
+tags:
+- python
+- Visualization
+---
 
 # Matplotlib
 <li>matplotlib.pyplot / 각 pyplot()함수는 figure를 변형시킨다. 예를들어 figure생성, figure에 플롯 영역 생성, 플롯영역에 일부 선그리기, 레이블로 플롯 꾸미기 등이 있다.</li>
@@ -29,8 +38,7 @@ plt.show
 
 
     <function matplotlib.pyplot.show>
-
-![](../img/python_visualization/output_2_1.png) 
+![](../image/python_visualization/output_2_1.png)
 
 
 ## 선 그래프
@@ -101,10 +109,10 @@ plt.show()
 ```
 
     [*********************100%***********************]  1 of 1 completed
-    
+![](../image/python_visualization/output_8_1.png)    
 
 
-![](../../public/img/python_visualization/output_8_1.png)
+
 
 ### 막대그래프
 
@@ -145,10 +153,8 @@ for rect in plot:
     graph :  Rectangle(xy=(10.6, 0), width=0.8, height=550, angle=0)
     graph :  Rectangle(xy=(11.6, 0), width=0.8, height=450, angle=0)
     
+![](../image/python_visualization/output_10_1.png)
 
-
- 
-![](../../public/img/python_visualization/output_10_1.png)
 
 ###산점도 그래프
 <li> 두개의 연속현 변수(키, 몸무게 등)</li>
@@ -173,9 +179,8 @@ ax.set_title('Tip ~Total Bill')
 fig.show()
 ```
 
+![](../image/python_visualization/output_12_0.png)
 
-
-![](../../public/img/python_visualization/output_12_0.png)
 
 
 ```python
@@ -205,8 +210,7 @@ fig.show
 
 
 
-![](../../public/img/python_visualization/output_14_1.png)
-
+![](../image/python_visualization/output_14_1.png)
 
 ### 박스플롯
 <li> X축 변수 : 범주형 변수, 그룹과 관련있는 변수, 문자열</li>
@@ -236,4 +240,4 @@ fig.show
 
 
     <bound method Figure.show of <Figure size 720x432 with 1 Axes>>
-![](../../public/img/python_visualization/output_16_1.png)
+![](../image/python_visualization/output_16_1.png)
