@@ -126,12 +126,7 @@ dot_data = tree.export_graphviz(clf, out_file=None,
 graph = graphviz.Source(dot_data)
 graph
 ```
+ ![svg](/images/Decision_Tree(결정트리)/output_15_0.svg)
 
 
-
-
-    
-![svg](/images/Decision_Tree(결정트리)/output_15_0.svg)
-    
-
-
+출처 : (https://scikit-learn.org/stable/modules/tree.html#regression)
